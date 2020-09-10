@@ -4,12 +4,14 @@ import store from "./redux/store";
 import ReactDOM from "react-dom";
 import "./index.css";
 import CakeContainer from "./components/CakeContainer";
+import HooksCakeContainer from "./components/HooksCakeContainer";
 
 class App extends React.Component {
   render() {
     return (
       <Provider store={store}>
         <div className="App">
+            <HooksCakeContainer />
           <CakeContainer />
         </div>
       </Provider>
