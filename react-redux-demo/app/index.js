@@ -5,6 +5,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import CakeContainer from "./components/CakeContainer";
 import HooksCakeContainer from "./components/HooksCakeContainer";
+import IceCreamContainer from "./components/iceCreamContainer";
 
 class App extends React.Component {
   render() {
@@ -13,6 +14,7 @@ class App extends React.Component {
         <div className="App">
             <HooksCakeContainer />
           <CakeContainer />
+          <IceCreamContainer />
         </div>
       </Provider>
     );
