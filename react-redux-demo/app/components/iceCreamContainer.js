@@ -15,7 +15,7 @@ function IceCreamContainer(props) {
 //This is often extracted into a different file called "selectors"
 const mapStateToProps = (state) => {
   return {
-    numOfIceCreams: state.numOfIceCreams,
+    numOfIceCreams: state.iceCream.numOfIceCreams,
   };
 };
 
